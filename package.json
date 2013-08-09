@@ -1,0 +1,22 @@
+{
+  "name": "karma-beep-reporter",
+  "version": "0.1.0",
+  "description": "A Karma plugin. Beeps when there is a failed test.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jdoyle/karma-beep-reporter.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-reporter"
+  ],
+  "author": "Joe Doyle <joe@joedoyle.us>",
+  "peerDependencies": {
+    "karma": "~0.10"
+  },
+  "license": "MIT"
+}
