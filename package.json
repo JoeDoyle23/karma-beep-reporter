@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/jdoyle/karma-beep-reporter.git"
+    "url": "git://github.com/JoeDoyle23/karma-beep-reporter.git"
   },
   "keywords": [
     "karma-plugin",
