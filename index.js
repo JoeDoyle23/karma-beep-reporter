@@ -4,6 +4,8 @@ var BeepReporter = function(baseReporterDecorator) {
 	var beep = new Buffer(1);
 	beep.writeInt8(0x07, 0);
 	
+	this.onSpecComplete = function() { };
+
     this.onBrowserError = function(browser, error) {
 		this.write(beep.toString());
 	};  
