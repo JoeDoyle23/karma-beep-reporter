@@ -6,12 +6,7 @@ var BeepReporter = function(baseReporterDecorator) {
 	
 	this.onSpecComplete = function() { };
 
-    this.onBrowserError = function(browser, error) {
-		this.write(beep.toString());
-	};  
-  
-    this.onBrowserComplete = function(browser) {
-		var results = browser.lastResult;
+    this.onRunComplete = function(browsers, results) {
 		if (results.failed || results.error) {
 			this.write(beep.toString());
 		}
