@@ -1,9 +1,9 @@
 var BeepReporter = function(baseReporterDecorator) {
 	baseReporterDecorator(this);
-	
+
 	var beep = new Buffer(1);
 	beep.writeInt8(0x07, 0);
-	
+
 	this.onSpecComplete = function() { };
 
     this.onRunComplete = function(browsers, results) {
@@ -13,7 +13,7 @@ var BeepReporter = function(baseReporterDecorator) {
 	};
 };
 
-BeepReporter.$inject = ['baseReporterDecorator', 'formatError'];
+BeepReporter.$inject = ['baseReporterDecorator'];
 
 module.exports = {
 	'reporter:beep': ['type', BeepReporter]
