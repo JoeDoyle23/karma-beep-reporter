@@ -15,6 +15,9 @@
     "karma-reporter"
   ],
   "author": "Joe Doyle <joe@joedoyle.us>",
+  "contributors": [
+    "Bradley C Bailey <bcbailey@godaddy.com>"
+  ],
   "peerDependencies": {
     "karma": "~0.10"
   },
