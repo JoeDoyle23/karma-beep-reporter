@@ -1,6 +1,6 @@
 {
   "name": "karma-beep-reporter",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A Karma plugin. Beeps when there is a failed test.",
   "main": "index.js",
   "scripts": {
