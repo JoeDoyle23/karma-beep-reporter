@@ -38,6 +38,10 @@ karma start --reporters beep,dots
 
 For more information on Karma see the [homepage].
 
+Change Log
+==========
+0.1.2 - Fixed bug where failed tests were being displayed multiple times. (Bradley C Bailey <bcbailey@godaddy.com>)
+
 License
 =======
 karma-beep-reporter is MIT licensed.
