@@ -8,7 +8,7 @@ The easiest way is to keep `karma-beep-reporter` as a devDependency in your `pac
 ```json
 {
   "devDependencies": {
-    "karma": "~0.10",
+    "karma": ">=0.10",
     "karma-beep-reporter": "~0.1"
   }
 }
@@ -41,6 +41,7 @@ For more information on Karma see the [homepage].
 Change Log
 ==========
 0.1.2 - Fixed bug where failed tests were being displayed multiple times. (Bradley C Bailey <bcbailey@godaddy.com>)
+0.1.3 - Changed Karma dependancy to allow for v0.10 & v0.12
 
 License
 =======
