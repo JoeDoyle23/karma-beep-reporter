@@ -4,7 +4,7 @@ var BeepReporter = function(baseReporterDecorator) {
 	var beep = new Buffer(1);
 	beep.writeInt8(0x07, 0);
 
-	this.onSpecComplete = function() { };
+	this.onSpecComplete = this.writeCommonMsg = function() { };
 
     this.onRunComplete = function(browsers, results) {
 		if (results.failed || results.error) {

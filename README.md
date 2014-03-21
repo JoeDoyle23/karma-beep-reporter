@@ -40,8 +40,9 @@ For more information on Karma see the [homepage].
 
 Change Log
 ==========
-0.1.2 - Fixed bug where failed tests were being displayed multiple times. (Bradley C Bailey <bcbailey@godaddy.com>)
+0.1.4 - Fixed issue with incorrect formatting of the Kamra output when common messages (ex: console.log) were displayed
 0.1.3 - Changed Karma dependancy to allow for v0.10 & v0.12
+0.1.2 - Fixed bug where failed tests were being displayed multiple times. (Bradley C Bailey <bcbailey@godaddy.com>)
 
 License
 =======
