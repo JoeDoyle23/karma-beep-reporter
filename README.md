@@ -20,6 +20,7 @@ npm install karma-beep-reporter -g --save-dev
 ```
 
 ## Configuration
+You need to add it to the list of reporters:
 ```js
 // karma.conf.js
 module.exports = function(config) {
@@ -27,6 +28,16 @@ module.exports = function(config) {
     reporters: ['progress', 'beep'],
   });
 };
+```
+
+And you need to register the plugin as well:
+```js
+plugins : [
+        'karma-chrome-launcher',
+        'karma-firefox-launcher',
+        'karma-jasmine',
+        'karma-beep-reporter'
+        ],
 ```
 
 You can pass list of reporters as a CLI argument too:
